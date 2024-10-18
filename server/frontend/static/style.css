@@ -9,8 +9,10 @@ img{
   flex-direction: column;
   margin-left:5%;
   margin-right:5%;
-  margin-top: 1%;
-  margin-bottom: 1%;
+  margin-top: 0.0001%;
+  margin-bottom: 0.0001%;
+  border-radius: 75px;
+  border-bottom: 2px;
 }
 
 .row{
@@ -21,6 +23,7 @@ img{
   margin-top: 1%;
   justify-content: center;
   padding:20px;
+ 
 }
 
 .container{
@@ -123,4 +126,8 @@ img{
     border-radius:50px;
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
+}
+
+.card p{
+     line-height: 0.95em;
 }
